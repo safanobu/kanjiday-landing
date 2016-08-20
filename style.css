@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'helvetica neue';
+	color: #353535;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #00A1DE;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.width-view {
+	width: 85%;
+	margin: 0 auto;
+}
+
+header {
+	padding: 5vh 0;
+	text-align: center;
+    height: 30vh;
+}
+
+.header-container h1, .header-container h3 {
+	float: left;
+	font-family: 'Baloo Paaji', cursive;
+}
+
+.header-container h3 {
+	padding-top: 1rem;
+	padding-left: 0.9rem;
+	font-weight: 300;
+}
+
+main {
+	min-height: 60vh;
+}
+
+.description {
+	padding: 1.5rem 0;
+	width: 50%;
+	max-width: 600px;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.description h2 {
+	margin:0;
+	font-weight: 700;
+	margin-bottom: 3rem;
+}
+
+.description p {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+
+.description button {
+	cursor: pointer;
+	color: white;
+	border: none;
+	padding: 0.8rem 7rem;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	margin-top: 3rem;
+	background: #0DB4F1;
+}
+
+.screen-image {
+	float: right;
+}
+
+img {
+	width: 400px;
+	padding: 1rem 0;
+}
+
+footer {
+	width: 100%;
+	color: #00A1DE;
+	font-weight: 700;
+	font-size: 1rem;
+	background: #A7E7FF;
+	border-top: 4px solid #0DB4F1;
+	min-height: 10vh;
+}
+
+footer p {
+	float: right;
+}
+
+footer ul {
+	float: left;
+	list-style-type: none;
+	padding: 0;
+}	
+
+footer ul li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+@media (max-width: 900px ) {
+	.header-container {
+		width: 12rem;
+		margin: 0 auto;
+	}
+
+	.description {
+		width: 100%;
+		text-align: center;
+		max-width: none;
+	}
+
+	.screen-image {
+		width: 100%;
+		text-align: center;
+	}
+
+	.screen-image img {
+		margin: 0 auto;
+		width: 60%;
+		max-width: 450px;
+		
+	}
+
+	footer {
+		overflow: hidden;
+	}
+
+	footer ul, footer p {
+		float: none;
+		text-align: center;
+
+	}
+
+	main {
+		padding-bottom: 3rem;
+	}
+}
+
+@media (max-width: 400px ) {
+	header {
+		padding: 1.5rem 0;
+		text-align: center;
+		margin-bottom: 0.5rem;
+	}
+
+	.description button {
+		width: 100%;
+	}
+
+	.screen-image img {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.main{
+		padding: 0 1.5rem;
+	}
+}

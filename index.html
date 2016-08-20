@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kanjiday</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A Chrome extension for kanji learning">
+		<meta name="keywords" content="japanese,chrome,extension,kanji">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:400,700" rel="stylesheet">
+		<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/blipkhpdpopnngbpndfndbmjjbeflbhg">
+
+	</head>
+	<body>
+		<header>
+			<div class="width-view header-container">
+				<h1>Kanjiday</h1>
+				<h3>Beta</h3>
+			</div>
+			<div class='clear-both'></div>
+		</header>
+		<main class="width-view">
+			<div class="description">
+				<h2>Chrome extension for Kanji memorization</h2>
+				<p>Replaces your new tab with a kanji card.</p>
+				<p>Take your hiragana to the next level, one card a day</p>
+				<button id="install" onclick="chrome.webstore.install()">Install</button>
+			</div>
+			<div class="screen-image">
+				<img src="slice1.png">
+			</div>
+			<div class='clear-both'></div>
+		</main>
+		<footer>
+			<div class="width-view">
+				<ul>
+					<li><a href="mailto:contact@kanjiday.com">Contact</a></li>
+					<li><a href="https://www.twitter.com/kanjiday_app" target="_blank">Twitter</a></li>
+					<li><a href="https://chrome.google.com/webstore/detail/blipkhpdpopnngbpndfndbmjjbeflbhg" target="_blank">Google Store</a></li>
+				</ul>
+				<p>&copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>, Kanjiday.</p>
+				<div class='clear-both'></div>
+			</div>
+		</footer>
+		<script>
+			if (chrome.app.isInstalled) {
+				var button = document.getElementById('install');
+			  	button.firstChild.data = 'Installed';
+			  	button.style.background = '#B1B1B1';
+			}
+		</script>
+	</body>
+</html>
