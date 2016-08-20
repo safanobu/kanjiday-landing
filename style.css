@@ -74,7 +74,7 @@ main {
 	cursor: pointer;
 	color: white;
 	border: none;
-	padding: 0.8rem 7rem;
+	padding: 0.8rem 5rem;
 	border-radius: 0.5rem;
 	font-size: 1rem;
 	margin-top: 3rem;
@@ -117,12 +117,16 @@ footer ul li {
 
 @media (max-width: 900px ) {
 	header {
-	    height: 0;
+		height: 15vh;
 	}
-
 	.header-container {
 		width: 12rem;
 		margin: 0 auto;
+	}
+
+	main {
+		height: 75vh;
+		padding-bottom: 3rem;
 	}
 
 	.description {
@@ -150,19 +154,19 @@ footer ul li {
 	footer ul, footer p {
 		float: none;
 		text-align: center;
-
-	}
-
-	main {
-		padding-bottom: 3rem;
 	}
 }
 
-@media (max-width: 400px ) {
+@media (max-width: 500px ) {
 	header {
 		padding: 1.5rem 0;
 		text-align: center;
 		margin-bottom: 0.5rem;
+		height: 0;
+	}
+
+	main {
+		padding: 0 1.5rem;
 	}
 
 	.description button {
@@ -172,9 +176,5 @@ footer ul li {
 	.screen-image img {
 		width: 100%;
 		margin-top: 1rem;
-	}
-
-	.main{
-		padding: 0 1.5rem;
 	}
 }
