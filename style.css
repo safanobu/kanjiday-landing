@@ -116,6 +116,10 @@ footer ul li {
 }
 
 @media (max-width: 900px ) {
+	header {
+	    height: 0;
+	}
+
 	.header-container {
 		width: 12rem;
 		margin: 0 auto;
