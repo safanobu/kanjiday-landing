@@ -74,7 +74,8 @@ main {
 	cursor: pointer;
 	color: white;
 	border: none;
-	padding: 0.8rem 5rem;
+	height: 3rem;
+	width: 20rem;
 	border-radius: 0.5rem;
 	font-size: 1rem;
 	margin-top: 3rem;
