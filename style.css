@@ -159,6 +159,9 @@ footer ul li {
 }
 
 @media (max-width: 500px ) {
+	.width-view {
+		width: 97%;
+	}
 	header {
 		padding: 1.5rem 0;
 		text-align: center;
