@@ -168,6 +168,9 @@ footer ul li {
 		margin-bottom: 0.5rem;
 		height: 0;
 	}
+	.header-container {
+		width: 12rem;
+	}
 
 	main {
 		padding: 0 1.5rem;
