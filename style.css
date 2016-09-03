@@ -46,16 +46,19 @@ header {
 	font-weight: 300;
 }
 
-.header-container button {
-		float: right;
-    background: black;
-    color: white;
-    border: none;
-    padding: 0.8rem 2rem;
-    border-radius: 23px;
-    font-size: 0.85rem;
-    margin-top: 1rem;
-		cursor: pointer;
+.header-container .app-link {
+	float: right;
+}
+
+.header-container .link-button {
+	background: black;
+	color: white;
+	border: none;
+	padding: 0.8rem 2rem;
+	border-radius: 23px;
+	font-size: 0.85rem;
+	margin-top: 1rem;
+	cursor: pointer;
 }
 
 .header-container button:hover {
@@ -136,9 +139,14 @@ footer ul li {
 	header {
 		height: 15vh;
 	}
+
 	.header-container {
 		width: 12rem;
 		margin: 0 auto;
+	}
+
+	.app-link {
+		display: none;
 	}
 
 	main {
