@@ -32,7 +32,7 @@ a {
 header {
 	padding: 5vh 0;
 	text-align: center;
-    height: 30vh;
+  height: 30vh;
 }
 
 .header-container h1, .header-container h3 {
@@ -44,6 +44,22 @@ header {
 	padding-top: 1rem;
 	padding-left: 0.5rem;
 	font-weight: 300;
+}
+
+.header-container button {
+		float: right;
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 23px;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+		cursor: pointer;
+}
+
+.header-container button:hover {
+    background: #0DB4F1;
 }
 
 main {
@@ -109,7 +125,7 @@ footer ul {
 	float: left;
 	list-style-type: none;
 	padding: 0;
-}	
+}
 
 footer ul li {
 	display: inline-block;
@@ -145,7 +161,7 @@ footer ul li {
 		margin: 0 auto;
 		width: 60%;
 		max-width: 450px;
-		
+
 	}
 
 	footer {
