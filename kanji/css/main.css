@@ -35,12 +35,20 @@ a {
 }
 
 /* line 32, ../../src/sass/main.scss */
-.mainView {
-  transition: all .3s ease .15s;
+button {
+  cursor: pointer;
 }
 
-/* line 36, ../../src/sass/main.scss */
-#framer {
+/* line 38, ../../src/sass/main.scss */
+.mainView:hover {
+  padding: 2rem 3rem;
+}
+/* line 41, ../../src/sass/main.scss */
+.mainView:hover .skip {
+  opacity: 1;
+}
+/* line 46, ../../src/sass/main.scss */
+.mainView #framer {
   margin: 0 auto;
   width: 425px;
   height: 425px;
@@ -48,8 +56,8 @@ a {
   align-items: center;
   border-radius: 3px;
 }
-/* line 44, ../../src/sass/main.scss */
-#framer #wrapper {
+/* line 54, ../../src/sass/main.scss */
+.mainView #framer #wrapper {
   text-align: center;
   margin: 0 auto;
   width: 400px;
@@ -58,32 +66,60 @@ a {
   align-items: center;
   justify-content: center;
 }
-/* line 53, ../../src/sass/main.scss */
-#framer #wrapper p {
+/* line 63, ../../src/sass/main.scss */
+.mainView #framer #wrapper p {
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue";
   line-height: 1.3;
 }
-/* line 59, ../../src/sass/main.scss */
-#framer #wrapper #character {
+/* line 69, ../../src/sass/main.scss */
+.mainView #framer #wrapper #character {
   font-size: 9rem;
   font-weight: 600;
 }
-/* line 64, ../../src/sass/main.scss */
-#framer #wrapper #kunyomi {
+/* line 74, ../../src/sass/main.scss */
+.mainView #framer #wrapper #kunyomi {
   font-size: 3.4rem;
   font-weight: 400;
 }
-/* line 69, ../../src/sass/main.scss */
-#framer #wrapper #meaning {
+/* line 79, ../../src/sass/main.scss */
+.mainView #framer #wrapper #meaning {
   font-size: 1.4rem;
   text-transform: uppercase;
   line-height: 3;
   letter-spacing: 1px;
 }
+/* line 88, ../../src/sass/main.scss */
+.mainView .skip {
+  font-size: 0.9rem;
+  float: right;
+  position: absolute;
+  bottom: 3.8rem;
+  width: 425px;
+  text-align: center;
+  opacity: 0;
+  transition: all .3s ease .15s;
+  -webkit-transition: all .3s ease .15s;
+  -moz-transition: all .3s ease .15s;
+  -o-transition: all .3s ease .15s;
+}
+/* line 101, ../../src/sass/main.scss */
+.mainView .skip button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  float: right;
+}
+/* line 110, ../../src/sass/main.scss */
+.mainView .skip button:hover {
+  box-shadow: 0px 0px 5px #fff;
+}
 
-/* line 78, ../../src/sass/main.scss */
+/* line 117, ../../src/sass/main.scss */
 #settings {
   height: 25px;
   width: 25px;
@@ -96,19 +132,20 @@ a {
   align-items: center;
   cursor: pointer;
 }
-/* line 90, ../../src/sass/main.scss */
+/* line 129, ../../src/sass/main.scss */
 #settings:hover {
   box-shadow: 0px 0px 5px #fff;
 }
-/* line 94, ../../src/sass/main.scss */
+/* line 133, ../../src/sass/main.scss */
 #settings img {
   width: 100%;
   position: relative;
 }
 
-/* line 100, ../../src/sass/main.scss */
+/* line 139, ../../src/sass/main.scss */
 #settings-menu {
   background: white;
+  border: 1px solid lightgrey;
   width: 15rem;
   position: absolute;
   top: 15px;
@@ -116,63 +153,67 @@ a {
   display: none;
   font-size: 0.8rem;
 }
-/* line 109, ../../src/sass/main.scss */
+/* line 149, ../../src/sass/main.scss */
 #settings-menu .settings-link {
   display: block;
   border-bottom: 1px solid lightgrey;
   padding: 1rem;
   cursor: pointer;
 }
-/* line 116, ../../src/sass/main.scss */
+/* line 156, ../../src/sass/main.scss */
 #settings-menu #picker-wrapper {
-  width: 15rem;
   height: 0;
   background: white;
   opacity: 0;
   transition: all .3s ease .15s;
+  -webkit-transition: all .3s ease .15s;
+  -moz-transition: all .3s ease .15s;
+  -o-transition: all .3s ease .15s;
   border-bottom: 1px solid lightgrey;
 }
-/* line 124, ../../src/sass/main.scss */
+/* line 166, ../../src/sass/main.scss */
 #settings-menu #picker-wrapper .picker {
   display: none;
   justify-content: center;
   align-items: center;
   padding: 1rem;
 }
-/* line 131, ../../src/sass/main.scss */
+/* line 173, ../../src/sass/main.scss */
 #settings-menu #picker-wrapper .colpick {
   background: white !important;
   border: none !important;
   border-radius: 0 !important;
 }
-/* line 138, ../../src/sass/main.scss */
+/* line 180, ../../src/sass/main.scss */
 #settings-menu #list-wrapper {
-  width: 15rem;
   height: 0;
   opacity: 0;
   transition: all .3s ease .15s;
+  -webkit-transition: all .3s ease .15s;
+  -moz-transition: all .3s ease .15s;
+  -o-transition: all .3s ease .15s;
   overflow: hidden;
 }
-/* line 145, ../../src/sass/main.scss */
+/* line 189, ../../src/sass/main.scss */
 #settings-menu #list-wrapper p {
   padding: 0.5rem 1rem;
   background: #F1F1F1;
   border-bottom: 1px solid lightgrey;
   margin: 0;
 }
-/* line 153, ../../src/sass/main.scss */
+/* line 197, ../../src/sass/main.scss */
 #settings-menu .show-picker {
   opacity: 1 !important;
   height: 15rem !important;
 }
-/* line 158, ../../src/sass/main.scss */
+/* line 202, ../../src/sass/main.scss */
 #settings-menu .show-list {
   opacity: 1 !important;
   height: 30rem !important;
   overflow: scroll !important;
 }
 
-/* line 166, ../../src/sass/main.scss */
+/* line 209, ../../src/sass/main.scss */
 .info-icon {
   width: 25px;
   height: 25px;
@@ -182,17 +223,20 @@ a {
   left: 15px;
   cursor: pointer;
   transition: all .3s ease .15s;
+  -webkit-transition: all .3s ease .15s;
+  -moz-transition: all .3s ease .15s;
+  -o-transition: all .3s ease .15s;
 }
-/* line 176, ../../src/sass/main.scss */
+/* line 222, ../../src/sass/main.scss */
 .info-icon:hover {
   box-shadow: 0px 0px 5px #fff;
 }
-/* line 180, ../../src/sass/main.scss */
+/* line 226, ../../src/sass/main.scss */
 .info-icon img {
   width: 25px;
 }
 
-/* line 185, ../../src/sass/main.scss */
+/* line 231, ../../src/sass/main.scss */
 footer {
   width: 100%;
   background: black;
@@ -202,39 +246,42 @@ footer {
   opacity: 0;
   left: 0;
   transition: all .3s ease .15s;
+  -webkit-transition: all .3s ease .15s;
+  -moz-transition: all .3s ease .15s;
+  -o-transition: all .3s ease .15s;
   color: white;
 }
-/* line 196, ../../src/sass/main.scss */
+/* line 245, ../../src/sass/main.scss */
 footer h2 {
   float: left;
   padding: 1rem 0 1rem 3rem;
   font-size: 1rem;
 }
-/* line 202, ../../src/sass/main.scss */
+/* line 251, ../../src/sass/main.scss */
 footer a {
   font-weight: 600;
   color: white;
 }
-/* line 207, ../../src/sass/main.scss */
+/* line 256, ../../src/sass/main.scss */
 footer div {
   padding: 1.5rem 3rem;
   float: left;
   width: calc(100% - 20rem);
   font-size: 0.8rem;
 }
-/* line 214, ../../src/sass/main.scss */
+/* line 263, ../../src/sass/main.scss */
 footer .twitter-link {
   width: 1.8rem;
   height: 1.8rem;
   float: right;
   margin: 2rem 3rem;
 }
-/* line 220, ../../src/sass/main.scss */
+/* line 269, ../../src/sass/main.scss */
 footer .twitter-link img {
   width: 100%;
 }
 
-/* line 226, ../../src/sass/main.scss */
+/* line 275, ../../src/sass/main.scss */
 .show-footer {
   opacity: 1;
   height: auto;
