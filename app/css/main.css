@@ -1,0 +1,242 @@
+/* line 1, ../../src/sass/main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../../src/sass/main.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../../src/sass/main.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 15, ../../src/sass/main.scss */
+body {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue", "Lucida Grande", sans-serif !important;
+  font-size: 100% !important;
+}
+
+/* line 28, ../../src/sass/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 32, ../../src/sass/main.scss */
+.mainView {
+  transition: all .3s ease .15s;
+}
+
+/* line 36, ../../src/sass/main.scss */
+#framer {
+  margin: 0 auto;
+  width: 425px;
+  height: 425px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+/* line 44, ../../src/sass/main.scss */
+#framer #wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 53, ../../src/sass/main.scss */
+#framer #wrapper p {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue";
+  line-height: 1.3;
+}
+/* line 59, ../../src/sass/main.scss */
+#framer #wrapper #character {
+  font-size: 9rem;
+  font-weight: 600;
+}
+/* line 64, ../../src/sass/main.scss */
+#framer #wrapper #kunyomi {
+  font-size: 3.4rem;
+  font-weight: 400;
+}
+/* line 69, ../../src/sass/main.scss */
+#framer #wrapper #meaning {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 3;
+  letter-spacing: 1px;
+}
+
+/* line 78, ../../src/sass/main.scss */
+#settings {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* line 90, ../../src/sass/main.scss */
+#settings:hover {
+  box-shadow: 0px 0px 5px #fff;
+}
+/* line 94, ../../src/sass/main.scss */
+#settings img {
+  width: 100%;
+  position: relative;
+}
+
+/* line 100, ../../src/sass/main.scss */
+#settings-menu {
+  background: white;
+  width: 15rem;
+  position: absolute;
+  top: 15px;
+  right: 55px;
+  display: none;
+  font-size: 0.8rem;
+}
+/* line 109, ../../src/sass/main.scss */
+#settings-menu .settings-link {
+  display: block;
+  border-bottom: 1px solid lightgrey;
+  padding: 1rem;
+  cursor: pointer;
+}
+/* line 116, ../../src/sass/main.scss */
+#settings-menu #picker-wrapper {
+  width: 15rem;
+  height: 0;
+  background: white;
+  opacity: 0;
+  transition: all .3s ease .15s;
+  border-bottom: 1px solid lightgrey;
+}
+/* line 124, ../../src/sass/main.scss */
+#settings-menu #picker-wrapper .picker {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+/* line 131, ../../src/sass/main.scss */
+#settings-menu #picker-wrapper .colpick {
+  background: white !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+/* line 138, ../../src/sass/main.scss */
+#settings-menu #list-wrapper {
+  width: 15rem;
+  height: 0;
+  opacity: 0;
+  transition: all .3s ease .15s;
+  overflow: hidden;
+}
+/* line 145, ../../src/sass/main.scss */
+#settings-menu #list-wrapper p {
+  padding: 0.5rem 1rem;
+  background: #F1F1F1;
+  border-bottom: 1px solid lightgrey;
+  margin: 0;
+}
+/* line 153, ../../src/sass/main.scss */
+#settings-menu .show-picker {
+  opacity: 1 !important;
+  height: 15rem !important;
+}
+/* line 158, ../../src/sass/main.scss */
+#settings-menu .show-list {
+  opacity: 1 !important;
+  height: 30rem !important;
+  overflow: scroll !important;
+}
+
+/* line 166, ../../src/sass/main.scss */
+.info-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  cursor: pointer;
+  transition: all .3s ease .15s;
+}
+/* line 176, ../../src/sass/main.scss */
+.info-icon:hover {
+  box-shadow: 0px 0px 5px #fff;
+}
+/* line 180, ../../src/sass/main.scss */
+.info-icon img {
+  width: 25px;
+}
+
+/* line 185, ../../src/sass/main.scss */
+footer {
+  width: 100%;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  left: 0;
+  transition: all .3s ease .15s;
+  color: white;
+}
+/* line 196, ../../src/sass/main.scss */
+footer h2 {
+  float: left;
+  padding: 1rem 0 1rem 3rem;
+  font-size: 1rem;
+}
+/* line 202, ../../src/sass/main.scss */
+footer a {
+  font-weight: 600;
+  color: white;
+}
+/* line 207, ../../src/sass/main.scss */
+footer div {
+  padding: 1.5rem 3rem;
+  float: left;
+  width: calc(100% - 20rem);
+  font-size: 0.8rem;
+}
+/* line 214, ../../src/sass/main.scss */
+footer .twitter-link {
+  width: 1.8rem;
+  height: 1.8rem;
+  float: right;
+  margin: 2rem 3rem;
+}
+/* line 220, ../../src/sass/main.scss */
+footer .twitter-link img {
+  width: 100%;
+}
+
+/* line 226, ../../src/sass/main.scss */
+.show-footer {
+  opacity: 1;
+  height: auto;
+  min-height: 9rem;
+}

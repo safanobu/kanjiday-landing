@@ -1,0 +1,309 @@
+{"kanji": 
+  [
+    {
+      "character": "海",
+      "kunyomi": "うみ",
+      "meaning": "Ocean"
+    }, {
+      "character": "畑",
+      "kunyomi": "はたけ",
+      "meaning": "Field"
+    }, {
+      "character": "村",
+      "kunyomi": "むら",
+      "meaning": "Village"
+    }, {
+      "character": "島",
+      "kunyomi": "しま",
+      "meaning": "Island"
+    }, {
+      "character": "壁",
+      "kunyomi": "かべ",
+      "meaning": "Wall"
+    }, {
+      "character": "店",
+      "kunyomi": "みせ",
+      "meaning": "Shop"
+    }, {
+      "character": "表",
+      "kunyomi": "ひょう",
+      "meaning": "Table"
+    }, {
+      "character": "本",
+      "kunyomi": "ほん",
+      "meaning": "Book"
+    }, {
+      "character": "年",
+      "kunyomi": "とし",
+      "meaning": "Year"
+    }, {
+      "character": "国",
+      "kunyomi": "くに",
+      "meaning": "Country"
+    }, {
+      "character": "空",
+      "kunyomi": "そら",
+      "meaning": "Sky"
+    }, {
+      "character": "一",
+      "kunyomi": "いち",
+      "meaning": "One"
+    }, {
+      "character": "二",
+      "kunyomi": "に",
+      "meaning": "Two"
+    }, {
+      "character": "三",
+      "kunyomi": "さん",
+      "meaning": "Three"
+    }, {
+      "character": "四",
+      "kunyomi": "し",
+      "meaning": "Four"
+    }, {
+      "character": "五",
+      "kunyomi": "ご",
+      "meaning": "Five"
+    }, {
+      "character": "六",
+      "kunyomi": "ろく",
+      "meaning": "Six"
+    }, {
+      "character": "七",
+      "kunyomi": "なな",
+      "meaning": "Seven"
+    }, {
+      "character": "八",
+      "kunyomi": "はち",
+      "meaning": "Eight"
+    }, {
+      "character": "九",
+      "kunyomi": "きゅう",
+      "meaning": "Nine"
+    }, {
+      "character": "十",
+      "kunyomi": "じゅう",
+      "meaning": "Ten"
+    }, {
+      "character": "社",
+      "kunyomi": "しゃ",
+      "meaning": "Shrine"
+    }, {
+      "character": "手",
+      "kunyomi": "て",
+      "meaning": "Hand"
+    }, {
+      "character": "力",
+      "kunyomi": "しから",
+      "meaning": "Power"
+    }, {
+      "character": "明",
+      "kunyomi": "あきら",
+      "meaning": "Light"
+    }, {
+      "character": "家",
+      "kunyomi": "いえ",
+      "meaning": "House"
+    }, {
+      "character": "道",
+      "kunyomi": "みち",
+      "meaning": "Way"
+    }, {
+      "character": "朝",
+      "kunyomi": "あさ",
+      "meaning": "Morning"
+    }, {
+      "character": "夕",
+      "kunyomi": "ゆう",
+      "meaning": "Evening"
+    }, {
+      "character": "夜",
+      "kunyomi": "よる",
+      "meaning": "Night"
+    }, {
+      "character": "音",
+      "kunyomi": "おと",
+      "meaning": "Sound"
+    }, {
+      "character": "風",
+      "kunyomi": "かぜ",
+      "meaning": "Wind"
+    }, {
+      "character": "紙",
+      "kunyomi": "がみ",
+      "meaning": "Paper"
+    }, {
+      "character": "花",
+      "kunyomi": "はな",
+      "meaning": "Flower"
+    }, {
+      "character": "色",
+      "kunyomi": "いろ",
+      "meaning": "Color"
+    }, {
+      "character": "秋",
+      "kunyomi": "あき",
+      "meaning": "Autumn"
+    }, {
+      "character": "夏",
+      "kunyomi": "なつ",
+      "meaning": "Summer"
+    }, {
+      "character": "冬",
+      "kunyomi": "ふゆ",
+      "meaning": "Winter"
+    }, {
+      "character": "春",
+      "kunyomi": "はる",
+      "meaning": "Spring"
+    }, {
+      "character": "旅",
+      "kunyomi": "たび",
+      "meaning": "Journey"
+    }, {
+      "character": "鳥",
+      "kunyomi": "とり",
+      "meaning": "Bird"
+    }, {
+      "character": "茶",
+      "kunyomi": "ちゃ",
+      "meaning": "Tea"
+    }, {
+      "character": "飯",
+      "kunyomi": "めし",
+      "meaning": "Food"
+    }, {
+      "character": "魚",
+      "kunyomi": "さかな",
+      "meaning": "Fish"
+    }, {
+      "character": "金",
+      "kunyomi": "きん",
+      "meaning": "Gold"
+    }, {
+      "character": "銀",
+      "kunyomi": "じん",
+      "meaning": "Silver"
+    }, {
+      "character": "市",
+      "kunyomi": "いち",
+      "meaning": "City"
+    },{
+      "character": "雲",
+      "kunyomi": "くも",
+      "meaning": "Cloud"
+    },{
+      "character": "雨",
+      "kunyomi": "あめ",
+      "meaning": "Rain"
+    },{
+      "character": "雪",
+      "kunyomi": "ゆき",
+      "meaning": "Snow"
+    },{
+      "character": "嵐",
+      "kunyomi": "あらし",
+      "meaning": "Storm"
+    },{
+      "character": "服",
+      "kunyomi": "ふく",
+      "meaning": "Clothes"
+    },{
+      "character": "私",
+      "kunyomi": "わたし",
+      "meaning": "I"
+    },{
+      "character": "駅",
+      "kunyomi": "えき",
+      "meaning": "Station"
+    },{
+      "character": "家",
+      "kunyomi": "いえ",
+      "meaning": "Home"
+    },{
+      "character": "水",
+      "kunyomi": "みず",
+      "meaning": "Water"
+    },{
+      "character": "赤",
+      "kunyomi": "あか",
+      "meaning": "Red"
+    },{
+      "character": "青",
+      "kunyomi": "あお",
+      "meaning": "Blue"
+    },{
+      "character": "黒",
+      "kunyomi": "くろ",
+      "meaning": "Black"
+    },{
+      "character": "緑",
+      "kunyomi": "みどり",
+      "meaning": "Green"
+    },{
+      "character": "白",
+      "kunyomi": "しろ",
+      "meaning": "White"
+    },{
+      "character": "百",
+      "kunyomi": "ひゃく",
+      "meaning": "100"
+    },{
+      "character": "千",
+      "kunyomi": "せん",
+      "meaning": "1,000"
+    },{
+      "character": "万",
+      "kunyomi": "まん",
+      "meaning": "10,000"
+    },{
+      "character": "円",
+      "kunyomi": "えん",
+      "meaning": "Yen"
+    },{
+      "character": "月",
+      "kunyomi": "つき",
+      "meaning": "Moon"
+    },{
+      "character": "何？",
+      "kunyomi": "なに",
+      "meaning": "What?"
+    },{
+      "character": "山",
+      "kunyomi": "やま",
+      "meaning": "Mountain"
+    },{
+      "character": "牛",
+      "kunyomi": "うし",
+      "meaning": "Cow"
+    },{
+      "character": "羽",
+      "kunyomi": "はね",
+      "meaning": "Feather"
+    },{
+      "character": "腕",
+      "kunyomi": "うで",
+      "meaning": "Arm"
+    },{
+      "character": "馬",
+      "kunyomi": "うま",
+      "meaning": "Horse"
+    },{
+      "character": "貝",
+      "kunyomi": "かい",
+      "meaning": "Shell"
+    },{
+      "character": "机",
+      "kunyomi": "つくえ",
+      "meaning": "Desk"
+    },{
+      "character": "坂",
+      "kunyomi": "さか",
+      "meaning": "Slope"
+    },{
+      "character": "皿",
+      "kunyomi": "さら",
+      "meaning": "Plate"
+    }
+  ]
+}

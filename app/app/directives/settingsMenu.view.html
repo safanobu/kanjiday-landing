@@ -1,0 +1,13 @@
+<div id="settings"  ng-click="toggleSettingsMenu()">
+    <img src="img/settings-icon.png">
+</div>
+<div id="settings-menu">
+  	<a class="settings-link" ng-click='toggleColorPicker()'>Change color</a>
+  	<div id="picker-wrapper">
+  		<color-pick></color-pick>
+  	</div>
+  	<a class="settings-link" ng-click='toggleList()'>Kanji list - <i>{{ kanjiFactory.data.kanji.length }} kanji</i></a>
+  	<div id="list-wrapper">
+  		<p ng-repeat='kanji in kanjiFactory.data.kanji'>{{ kanji.character }} - {{ kanji.meaning }}</p>
+  	</div>
+</div>

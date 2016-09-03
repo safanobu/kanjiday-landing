@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="kanjidayApp">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <title>Kanjiday</title>
+	    <script src="assets/jquery.min.js"></script>
+	    <script type="text/javascript" src="assets/colpick/js/colpick.js"></script>
+	    <script src="assets/angular.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/main.css">
+	    <link rel="stylesheet" type="text/css" href="assets/colpick/css/colpick.css">
+	    <script src="app.min.js"></script>
+	</head>
+	<body ng-controller="mainController as vm" ng-style='{"background": vm.bodyBackground}'>
+		<div class='mainView'>
+			<settings-menu update-color='vm.updateColors'></settings-menu>
+		    <div id="framer" ng-style='{"border": vm.border}'>
+		      	<div id="wrapper" ng-style='{"background" : vm.wrapperBackground}'>
+		        	<div class="container" ng-if='vm.kanji' ng-style='{"color": vm.bodyBackground }' >
+		          		<p id="character" ng-bind='vm.kanji.character'></p>
+		          		<p id="kunyomi" ng-bind='vm.kanji.kunyomi'><p>
+		          		<p id="meaning" ng-bind='vm.kanji.meaning'></p>
+		        	</div> 
+		      	</div>
+		    </div>
+		</div>
+	    <footer-info></footer-info>
+	</body>
+</html>
