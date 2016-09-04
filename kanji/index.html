@@ -12,9 +12,9 @@
 	    <script src="app.min.js"></script>
 	</head>
 	<body ng-controller="mainController as vm" ng-style='{"background": vm.bodyBackground}'>
-		<onboarding text-color="vm.wrapperBackground" button-color="vm.bodyBackground"></onboarding>
 		<settings-menu update-color='vm.updateColors'></settings-menu>
 		<div class='mainView'>
+			<onboarding text-color="vm.wrapperBackground" button-color="vm.bodyBackground"></onboarding>
 		    <div id="framer" ng-style='{"border": vm.border}'>
 		      	<div id="wrapper" ng-style='{"background" : vm.wrapperBackground}'>
 		        	<div class="container" ng-if='vm.kanji' ng-style='{"color": vm.bodyBackground }' >
@@ -26,7 +26,6 @@
 		    </div>
 		    <next-kanji list='vm.kanjiList'></next-kanji>
 		</div>
-
-	    <footer-info></footer-info>
+	  <footer-info></footer-info>
 	</body>
 </html>
