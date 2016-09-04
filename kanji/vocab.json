@@ -1,4 +1,4 @@
-{"kanji": 
+{"kanji":
   [
     {
       "character": "海",
@@ -304,6 +304,182 @@
       "character": "皿",
       "kunyomi": "さら",
       "meaning": "Plate"
+    },{
+      "character": "三角",
+      "kunyomi": "さんかく",
+      "meaning": "Triangle"
+    },{
+      "character": "友達",
+      "kunyomi": "ともだち",
+      "meaning": "Friend"
+    },{
+      "character": "女優",
+      "kunyomi": "じょゆう",
+      "meaning": "Actress"
+    },{
+      "character": "大人",
+      "kunyomi": "おとな",
+      "meaning": "Adult"
+    },{
+      "character": "子供",
+      "kunyomi": "こども",
+      "meaning": "Child"
+    },{
+      "character": "毎日",
+      "kunyomi": "まいにち",
+      "meaning": "Every day"
+    },{
+      "character": "花火",
+      "kunyomi": "はなび",
+      "meaning": "Fireworks"
+    },{
+      "character": "火山",
+      "kunyomi": "かざん",
+      "meaning": "Volcano"
+    },{
+      "character": "水着",
+      "kunyomi": "みずぎ",
+      "meaning": "Swimsuit"
+    },{
+      "character": "お金",
+      "kunyomi": "おかね",
+      "meaning": "Money"
+    },{
+      "character": "物語",
+      "kunyomi": "ものがたり",
+      "meaning": "Story"
+    },{
+      "character": "名前",
+      "kunyomi": "なまえ",
+      "meaning": "Name"
+    },{
+      "character": "後ろ",
+      "kunyomi": "うしろ",
+      "meaning": "Behind"
+    },{
+      "character": "時間",
+      "kunyomi": "じかん",
+      "meaning": "Time"
+    },{
+      "character": "時々",
+      "kunyomi": "ときどき",
+      "meaning": "Sometimes"
+    },{
+      "character": "先生",
+      "kunyomi": "せんせい",
+      "meaning": "Teacher"
+    },{
+      "character": "何か",
+      "kunyomi": "なにか",
+      "meaning": "Something"
+    },{
+      "character": "有名",
+      "kunyomi": "ゆうめい",
+      "meaning": "Famous"
+    },{
+      "character": "最高",
+      "kunyomi": "さいこう",
+      "meaning": "Highest / Best"
+    },{
+      "character": "大学",
+      "kunyomi": "だいがく",
+      "meaning": "University"
+    },{
+      "character": "気分",
+      "kunyomi": "きぶん",
+      "meaning": "Feeling"
+    },{
+      "character": "科学",
+      "kunyomi": "かがく",
+      "meaning": "Science"
+    },{
+      "character": "天気",
+      "kunyomi": "てんき",
+      "meaning": "Weather"
+    },{
+      "character": "天才",
+      "kunyomi": "てんさい",
+      "meaning": "Genius"
+    },{
+      "character": "電車",
+      "kunyomi": "でんしゃ",
+      "meaning": "Train"
+    },{
+      "character": "電話",
+      "kunyomi": "でんわ",
+      "meaning": "Telephone"
+    },{
+      "character": "電気",
+      "kunyomi": "でんき",
+      "meaning": "Electricity"
+    },{
+      "character": "新聞",
+      "kunyomi": "しんぶん",
+      "meaning": "Newspaper"
+    },{
+      "character": "辞書",
+      "kunyomi": "じしょ",
+      "meaning": "Dictionary"
+    },{
+      "character": "旅行",
+      "kunyomi": "りょこう",
+      "meaning": "Travel"
+    },{
+      "character": "銀行",
+      "kunyomi": "ぎんこう",
+      "meaning": "Bank"
+    },{
+      "character": "出口",
+      "kunyomi": "でぐち",
+      "meaning": "Exit"
+    },{
+      "character": "入口",
+      "kunyomi": "いりぐち",
+      "meaning": "Entrance"
+    },{
+      "character": "説明",
+      "kunyomi": "せつめい",
+      "meaning": "Explanation"
+    },{
+      "character": "空港",
+      "kunyomi": "くうこう",
+      "meaning": "Airport"
+    },{
+      "character": "悪魔",
+      "kunyomi": "あくま",
+      "meaning": "Devil"
+    },{
+      "character": "文字",
+      "kunyomi": "もじ",
+      "meaning": "Letter"
+    },{
+      "character": "趣味",
+      "kunyomi": "しゅみ",
+      "meaning": "Hobby"
+    },{
+      "character": "医者",
+      "kunyomi": "いしゃ",
+      "meaning": "Doctor"
+    },{
+      "character": "家族",
+      "kunyomi": "かぞく",
+      "meaning": "Family"
+    },{
+      "character": "音楽",
+      "kunyomi": "おんがく",
+      "meaning": "Music"
+    },{
+      "character": "写真",
+      "kunyomi": "しゃしん",
+      "meaning": "Photography"
+    },{
+      "character": "映画",
+      "kunyomi": "えいが",
+      "meaning": "Movie"
+    },{
+      "character": "世界",
+      "kunyomi": "せかい",
+      "meaning": "The world"
     }
   ]
 }

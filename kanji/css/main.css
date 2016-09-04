@@ -237,6 +237,28 @@ button {
 }
 
 /* line 231, ../../src/sass/main.scss */
+.onboarding-next {
+  position: absolute;
+  border: 2px dashed white;
+  padding: 0.8rem 1rem;
+  bottom: 8.5rem;
+  right: 10%;
+  width: 21%;
+}
+/* line 239, ../../src/sass/main.scss */
+.onboarding-next p {
+  font-size: 0.9rem;
+}
+/* line 243, ../../src/sass/main.scss */
+.onboarding-next button {
+  background: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.75rem;
+  border-radius: 0.2rem;
+}
+
+/* line 252, ../../src/sass/main.scss */
 footer {
   width: 100%;
   background: black;
@@ -251,37 +273,37 @@ footer {
   -o-transition: all .3s ease .15s;
   color: white;
 }
-/* line 245, ../../src/sass/main.scss */
+/* line 266, ../../src/sass/main.scss */
 footer h2 {
   float: left;
   padding: 1rem 0 1rem 3rem;
   font-size: 1rem;
 }
-/* line 251, ../../src/sass/main.scss */
+/* line 272, ../../src/sass/main.scss */
 footer a {
   font-weight: 600;
   color: white;
 }
-/* line 256, ../../src/sass/main.scss */
+/* line 277, ../../src/sass/main.scss */
 footer div {
   padding: 1.5rem 3rem;
   float: left;
   width: calc(100% - 20rem);
   font-size: 0.8rem;
 }
-/* line 263, ../../src/sass/main.scss */
+/* line 284, ../../src/sass/main.scss */
 footer .twitter-link {
   width: 1.8rem;
   height: 1.8rem;
   float: right;
   margin: 2rem 3rem;
 }
-/* line 269, ../../src/sass/main.scss */
+/* line 290, ../../src/sass/main.scss */
 footer .twitter-link img {
   width: 100%;
 }
 
-/* line 275, ../../src/sass/main.scss */
+/* line 296, ../../src/sass/main.scss */
 .show-footer {
   opacity: 1;
   height: auto;

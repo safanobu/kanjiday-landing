@@ -12,18 +12,19 @@
 	    <script src="app.min.js"></script>
 	</head>
 	<body ng-controller="mainController as vm" ng-style='{"background": vm.bodyBackground}'>
+		<onboarding text-color="vm.wrapperBackground" button-color="vm.bodyBackground"></onboarding>
 		<settings-menu update-color='vm.updateColors'></settings-menu>
 		<div class='mainView'>
 		    <div id="framer" ng-style='{"border": vm.border}'>
 		      	<div id="wrapper" ng-style='{"background" : vm.wrapperBackground}'>
 		        	<div class="container" ng-if='vm.kanji' ng-style='{"color": vm.bodyBackground }' >
-		          		<p id="character" ng-bind='vm.kanji.character'></p>
+		        		<kanji-character character="vm.kanji.character"></kanji-character>
 		          		<p id="kunyomi" ng-bind='vm.kanji.kunyomi'><p>
 		          		<p id="meaning" ng-bind='vm.kanji.meaning'></p>
 		        	</div> 
 		      	</div>
 		    </div>
-		    <next-kanji list="vm.kanjiList"></next-kanji>
+		    <next-kanji list='vm.kanjiList'></next-kanji>
 		</div>
 
 	    <footer-info></footer-info>
