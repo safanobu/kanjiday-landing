@@ -18,9 +18,9 @@
 		    <div id="framer" ng-style='{"border": vm.border}'>
 		      	<div id="wrapper" ng-style='{"background" : vm.wrapperBackground}'>
 		        	<div class="container" ng-if='vm.kanji' ng-style='{"color": vm.bodyBackground }' >
-		        		<kanji-character character="vm.kanji.character"></kanji-character>
-		          		<p id="kunyomi" ng-bind='vm.kanji.kunyomi'><p>
-		          		<p id="meaning" ng-bind='vm.kanji.meaning'></p>
+		        		<p id="character" ng-class="{'one-character': vm.oneCharacter,'two-characters': !vm.oneCharacter}" ng-bind="vm.kanji.character"></p>
+		          		<p id="kunyomi" ng-class="{'kunyomi-one-character': vm.oneCharacter, 'kunyomi-two-characters': !vm.oneCharacter}" ng-bind="vm.kanji.kunyomi"><p>
+		          		<p id="meaning" ng-bind="vm.kanji.meaning"></p>
 		        	</div> 
 		      	</div>
 		    </div>

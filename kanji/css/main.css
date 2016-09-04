@@ -73,24 +73,39 @@ button {
   font-family: "Helvetica Neue";
   line-height: 1.3;
 }
-/* line 69, ../../src/sass/main.scss */
+/* line 70, ../../src/sass/main.scss */
 .mainView #framer #wrapper #character {
-  font-size: 9rem;
   font-weight: 600;
 }
 /* line 74, ../../src/sass/main.scss */
-.mainView #framer #wrapper #kunyomi {
+.mainView #framer #wrapper .one-character {
+  font-size: 9rem;
+}
+/* line 78, ../../src/sass/main.scss */
+.mainView #framer #wrapper .two-characters {
+  font-size: 7rem;
+  margin-top: 1rem;
+}
+/* line 83, ../../src/sass/main.scss */
+.mainView #framer #wrapper .kunyomi-one-character {
   font-size: 3.4rem;
+}
+/* line 87, ../../src/sass/main.scss */
+.mainView #framer #wrapper .kunyomi-two-characters {
+  font-size: 2.8rem;
+}
+/* line 91, ../../src/sass/main.scss */
+.mainView #framer #wrapper #kunyomi {
   font-weight: 400;
 }
-/* line 79, ../../src/sass/main.scss */
+/* line 95, ../../src/sass/main.scss */
 .mainView #framer #wrapper #meaning {
   font-size: 1.4rem;
   text-transform: uppercase;
   line-height: 3;
   letter-spacing: 1px;
 }
-/* line 88, ../../src/sass/main.scss */
+/* line 104, ../../src/sass/main.scss */
 .mainView .skip {
   font-size: 0.9rem;
   float: right;
@@ -104,7 +119,7 @@ button {
   -moz-transition: all .3s ease .15s;
   -o-transition: all .3s ease .15s;
 }
-/* line 101, ../../src/sass/main.scss */
+/* line 117, ../../src/sass/main.scss */
 .mainView .skip button {
   background: rgba(0, 0, 0, 0.5);
   color: white;
@@ -114,12 +129,12 @@ button {
   font-size: 0.8rem;
   float: right;
 }
-/* line 110, ../../src/sass/main.scss */
+/* line 126, ../../src/sass/main.scss */
 .mainView .skip button:hover {
   box-shadow: 0px 0px 5px #fff;
 }
 
-/* line 117, ../../src/sass/main.scss */
+/* line 133, ../../src/sass/main.scss */
 #settings {
   height: 25px;
   width: 25px;
@@ -132,17 +147,17 @@ button {
   align-items: center;
   cursor: pointer;
 }
-/* line 129, ../../src/sass/main.scss */
+/* line 145, ../../src/sass/main.scss */
 #settings:hover {
   box-shadow: 0px 0px 5px #fff;
 }
-/* line 133, ../../src/sass/main.scss */
+/* line 149, ../../src/sass/main.scss */
 #settings img {
   width: 100%;
   position: relative;
 }
 
-/* line 139, ../../src/sass/main.scss */
+/* line 155, ../../src/sass/main.scss */
 #settings-menu {
   background: white;
   border: 1px solid lightgrey;
@@ -153,14 +168,14 @@ button {
   display: none;
   font-size: 0.8rem;
 }
-/* line 149, ../../src/sass/main.scss */
+/* line 165, ../../src/sass/main.scss */
 #settings-menu .settings-link {
   display: block;
   border-bottom: 1px solid lightgrey;
   padding: 1rem;
   cursor: pointer;
 }
-/* line 156, ../../src/sass/main.scss */
+/* line 172, ../../src/sass/main.scss */
 #settings-menu #picker-wrapper {
   height: 0;
   background: white;
@@ -171,20 +186,20 @@ button {
   -o-transition: all .3s ease .15s;
   border-bottom: 1px solid lightgrey;
 }
-/* line 166, ../../src/sass/main.scss */
+/* line 182, ../../src/sass/main.scss */
 #settings-menu #picker-wrapper .picker {
   display: none;
   justify-content: center;
   align-items: center;
   padding: 1rem;
 }
-/* line 173, ../../src/sass/main.scss */
+/* line 189, ../../src/sass/main.scss */
 #settings-menu #picker-wrapper .colpick {
   background: white !important;
   border: none !important;
   border-radius: 0 !important;
 }
-/* line 180, ../../src/sass/main.scss */
+/* line 196, ../../src/sass/main.scss */
 #settings-menu #list-wrapper {
   height: 0;
   opacity: 0;
@@ -194,26 +209,26 @@ button {
   -o-transition: all .3s ease .15s;
   overflow: hidden;
 }
-/* line 189, ../../src/sass/main.scss */
+/* line 205, ../../src/sass/main.scss */
 #settings-menu #list-wrapper p {
   padding: 0.5rem 1rem;
   background: #F1F1F1;
   border-bottom: 1px solid lightgrey;
   margin: 0;
 }
-/* line 197, ../../src/sass/main.scss */
+/* line 213, ../../src/sass/main.scss */
 #settings-menu .show-picker {
   opacity: 1 !important;
   height: 15rem !important;
 }
-/* line 202, ../../src/sass/main.scss */
+/* line 218, ../../src/sass/main.scss */
 #settings-menu .show-list {
   opacity: 1 !important;
   height: 30rem !important;
   overflow: scroll !important;
 }
 
-/* line 209, ../../src/sass/main.scss */
+/* line 225, ../../src/sass/main.scss */
 .info-icon {
   width: 25px;
   height: 25px;
@@ -227,16 +242,16 @@ button {
   -moz-transition: all .3s ease .15s;
   -o-transition: all .3s ease .15s;
 }
-/* line 222, ../../src/sass/main.scss */
+/* line 238, ../../src/sass/main.scss */
 .info-icon:hover {
   box-shadow: 0px 0px 5px #fff;
 }
-/* line 226, ../../src/sass/main.scss */
+/* line 242, ../../src/sass/main.scss */
 .info-icon img {
   width: 25px;
 }
 
-/* line 231, ../../src/sass/main.scss */
+/* line 247, ../../src/sass/main.scss */
 .onboarding-next {
   position: absolute;
   border: 2px dashed white;
@@ -245,11 +260,11 @@ button {
   right: 10%;
   width: 21%;
 }
-/* line 239, ../../src/sass/main.scss */
+/* line 255, ../../src/sass/main.scss */
 .onboarding-next p {
   font-size: 0.9rem;
 }
-/* line 243, ../../src/sass/main.scss */
+/* line 259, ../../src/sass/main.scss */
 .onboarding-next button {
   background: white;
   border: none;
@@ -258,7 +273,7 @@ button {
   border-radius: 0.2rem;
 }
 
-/* line 252, ../../src/sass/main.scss */
+/* line 268, ../../src/sass/main.scss */
 footer {
   width: 100%;
   background: black;
@@ -273,37 +288,37 @@ footer {
   -o-transition: all .3s ease .15s;
   color: white;
 }
-/* line 266, ../../src/sass/main.scss */
+/* line 282, ../../src/sass/main.scss */
 footer h2 {
   float: left;
   padding: 1rem 0 1rem 3rem;
   font-size: 1rem;
 }
-/* line 272, ../../src/sass/main.scss */
+/* line 288, ../../src/sass/main.scss */
 footer a {
   font-weight: 600;
   color: white;
 }
-/* line 277, ../../src/sass/main.scss */
+/* line 293, ../../src/sass/main.scss */
 footer div {
   padding: 1.5rem 3rem;
   float: left;
   width: calc(100% - 20rem);
   font-size: 0.8rem;
 }
-/* line 284, ../../src/sass/main.scss */
+/* line 300, ../../src/sass/main.scss */
 footer .twitter-link {
   width: 1.8rem;
   height: 1.8rem;
   float: right;
   margin: 2rem 3rem;
 }
-/* line 290, ../../src/sass/main.scss */
+/* line 306, ../../src/sass/main.scss */
 footer .twitter-link img {
   width: 100%;
 }
 
-/* line 296, ../../src/sass/main.scss */
+/* line 312, ../../src/sass/main.scss */
 .show-footer {
   opacity: 1;
   height: auto;
