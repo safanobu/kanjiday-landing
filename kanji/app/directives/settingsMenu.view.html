@@ -2,12 +2,19 @@
     <img src="img/settings-icon.png">
 </div>
 <div id="settings-menu">
+	<a class="settings-link" ng-click="showKanjiInfo()">Select information to display</a>
+  	<div id="kanji-info">
+  		<toggle-elt class-name='kunyomi'></toggle-elt><p>kunyomi</p>
+  		<div class="clear-both"></div>
+  		<toggle-elt class-name='meaning'></toggle-elt><p>Meaning</p>
+  		<div class="clear-both"></div>
+  	</div>
   	<a class="settings-link" ng-click='toggleColorPicker()'>Change color</a>
   	<div id="picker-wrapper">
   		<color-pick></color-pick>
   	</div>
-  	<a class="settings-link" ng-click='toggleList()'>Kanji list - <i>{{ kanjiFactory.data.kanji.length }} kanji</i></a>
+  	<a class="settings-link" ng-click='toggleList()'>Kanji vocab list - <i>{{ kanjiFactory.data.kanji.length }} words</i></a>
   	<div id="list-wrapper">
-  		<p ng-repeat='kanji in kanjiFactory.data.kanji'>{{ kanji.character }} - {{ kanji.meaning }}</p>
+  		<p ng-repeat='kanji in kanjiFactory.data.kanji'>{{ kanji.character }} - {{ kanji.meanings[0] }}</p>
   	</div>
 </div>
